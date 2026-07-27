@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>山陽楓旅｜岡山・廣島・松江</title>
+  <meta name="description" content="11/18–11/24 日本山陽楓季旅行計畫：每日行程、景點、交通與美食。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav><span class="brand">山陽楓旅</span><span class="nav-note">11.18 — 11.24 · 2026</span></nav>
+    <div class="hero-copy">
+      <p class="eyebrow">A WEEK IN WESTERN JAPAN</p>
+      <h1>把秋天，走成一張地圖。</h1>
+      <p class="lede">從岡山出發，沿著瀨戶內海一路走進廣島、宮島、倉敷與松江。這是我們的楓季旅行手帖。</p>
+      <a href="#itinerary" class="hero-cta">查看完整行程 <span>↓</span></a>
+    </div>
+    <div class="hero-stamp">JAPAN<br><b>2026</b></div>
+  </header>
+
+  <main>
+    <section class="intro grid-2">
+      <div><p class="eyebrow orange">TRIP NOTES</p><h2>七天，六座城，<br>一張 JR PASS。</h2></div>
+      <div class="intro-text"><p>這趟旅程以岡山為起點，搭乘岡山・廣島・山口鐵路周遊券，走訪宮島的海上大鳥居、廣島的歷史街區、倉敷老街，以及山陰的松江城下町。</p><p class="muted">沿途留給甜點、伴手禮和不期而遇的風景。</p></div>
+    </section>
+
+    <section id="itinerary" class="section-block">
+      <div class="section-head"><div><p class="eyebrow orange">THE ROUTE</p><h2>每日行程</h2></div><div id="day-tabs" class="day-tabs"></div></div>
+      <div id="day-content"></div>
+    </section>
+
+    <section class="section-block spots-section">
+      <div class="section-head"><div><p class="eyebrow orange">PLACES TO REMEMBER</p><h2>景點與口袋名單</h2></div><div class="search-wrap"><span>⌕</span><input id="search" placeholder="搜尋景點、美食、店家…" /></div></div>
+      <div id="spots" class="spot-grid"></div>
+    </section>
+  </main>
+
+  <footer><span>山陽楓旅 · 私人旅行計畫</span><span>Made for slow days &amp; good food.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
