@@ -1,0 +1,9 @@
+{
+  "name": "sanyo-maple-trip",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist/server dist/.openai && cp index.html styles.css app.js dist/ && cp .openai/hosting.json dist/.openai/hosting.json && echo static site ready",
+    "start": "npx serve ."
+  }
+}
